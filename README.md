@@ -68,6 +68,7 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
 #### 2. I am getting an error message saying that the OpenCart installation failed or Could not upload file.
 
 The plugin requires you to give write access to these folders on your OpenCart server. Please check with your server administrator to enable the write access rights.
+
     - <opencart root folder>/admin/controller
     - <opencart root folder>/admin/language
     - <opencart root folder>/admin/lanugage/en-gb
