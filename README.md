@@ -61,8 +61,8 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
 
   Having 2 versions on the Facebook pixel can lead to:
 
-      - Campaign results doubling (ex: 2x the number of actual conversions)
-      - Cost per result being halved in your reports
+    - Campaign results doubling (ex: 2x the number of actual conversions)
+    - Cost per result being halved in your reports
 
   If you remove your existing pixel and start over with the OpenCart plugin, we recommend pausing your active campaigns first and re-installing right away. This way, you'll minimize any impact on your website Custom Audiences and conversion counts.
 
