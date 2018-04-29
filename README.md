@@ -60,7 +60,9 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
   If you've set up the Facebook pixel but not dynamic ads, or you think you may have set up the Facebook pixel incorrectly, you should use the Facebook Ads Extension to get everything set up. Keep in mind you'll have to manually remove your existing Facebook pixel code from your website before starting, otherwise you'll have 2 versions of your pixel on your website.
 
   Having 2 versions on the Facebook pixel can lead to:
+
       1. Campaign results doubling (ex: 2x the number of actual conversions)
+      
       2. Cost per result being halved in your reports
 
   If you remove your existing pixel and start over with the OpenCart plugin, we recommend pausing your active campaigns first and re-installing right away. This way, you'll minimize any impact on your website Custom Audiences and conversion counts.
