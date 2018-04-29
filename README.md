@@ -60,61 +60,61 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
   If you've set up the Facebook pixel but not dynamic ads, or you think you may have set up the Facebook pixel incorrectly, you should use the Facebook Ads Extension to get everything set up. Keep in mind you'll have to manually remove your existing Facebook pixel code from your website before starting, otherwise you'll have 2 versions of your pixel on your website.
 
   Having 2 versions on the Facebook pixel can lead to:
-    - Campaign results doubling (ex: 2x the number of actual conversions)
-    - Cost per result being halved in your reports
+      - Campaign results doubling (ex: 2x the number of actual conversions)
+      - Cost per result being halved in your reports
 
   If you remove your existing pixel and start over with the OpenCart plugin, we recommend pausing your active campaigns first and re-installing right away. This way, you'll minimize any impact on your website Custom Audiences and conversion counts.
 
-2. I am getting an error message saying that the OpenCart installation failed or Could not upload file.
+#### 2. I am getting an error message saying that the OpenCart installation failed or Could not upload file.
 
 The plugin requires you to give write access to these folders on your OpenCart server. Please check with your server administrator to enable the write access rights.
-  - <opencart root folder>/admin/controller
-  - <opencart root folder>/admin/language
-  - <opencart root folder>/admin/lanugage/en-gb
-  - <opencart root folder>/admin/language/english
-  - <opencart root folder>/admin/model
-  - <opencart root folder>/admin/view
-  - <opencart root folder>/admin/view/image
-  - <opencart root folder>/admin/view/javascript
-  - <opencart root folder>/admin/view/stylesheet
-  - <opencart root folder>/catalog/controller
-  - <opencart root folder>/catalog/view/javascript
-  - <opencart root folder>/system/library
+    - <opencart root folder>/admin/controller
+    - <opencart root folder>/admin/language
+    - <opencart root folder>/admin/lanugage/en-gb
+    - <opencart root folder>/admin/language/english
+    - <opencart root folder>/admin/model
+    - <opencart root folder>/admin/view
+    - <opencart root folder>/admin/view/image
+    - <opencart root folder>/admin/view/javascript
+    - <opencart root folder>/admin/view/stylesheet
+    - <opencart root folder>/catalog/controller
+    - <opencart root folder>/catalog/view/javascript
+    - <opencart root folder>/system/library
 
-3. I have installed the OpenCart plugin but I am unable to see the Facebook Ads Extension module from the menu bar.
+#### 3. I have installed the OpenCart plugin but I am unable to see the Facebook Ads Extension module from the menu bar.
 
 You will need to refresh the server modifications cache for the changes to be reflected. Select Extensions and click on Modifications. Click on the refresh button, which is a blue icon, on the top right of the screen.
 
-4. I am getting an error message saying “Unable to access permissions” when I clicked on the Facebook Ads Extension.
+#### 4. I am getting an error message saying “Unable to access permissions” when I clicked on the Facebook Ads Extension.
 
 Facebook Ads Extension is a new module added to your OpenCart platform and you will need to give permissions access for your OpenCart login account. By default, the “Administrator” user group is given full access to the Facebook Ads Extension module upon installation. 
-  - Select System, Settings and click Users.
-  - Locate your user account and click on Edit button. Identify the user group.
-  - Select System, Settings, and click User Groups.
-  - Locate your user group and click on Edit button. Select the facebook/facebookadsextension in the Access and Modify permissions.
-  - Click on save button.
+    - Select System, Settings and click Users.
+    - Locate your user account and click on Edit button. Identify the user group.
+    - Select System, Settings, and click User Groups.
+    - Locate your user group and click on Edit button. Select the facebook/facebookadsextension in the Access and Modify permissions.
+    - Click on save button.
 
-5. I see an error that says "We're unable to proceed since the selected page has already been configured for the Facebook Ads Extension."
+#### 5. I see an error that says "We're unable to proceed since the selected page has already been configured for the Facebook Ads Extension."
 
 If you see this error, it means that your Page is associated with another store. You'll need to decide whether you want to keep the Facebook Page associated with your old OpenCart store, or associate it with a different store. Here's how you can change your Page's association:
-  - Select Remove connection with {your page name}.
-  - Click OK.
-  - You can now select your Page from the drop-down menu.
-  - Select Next and continue with the normal installation process.
+    - Select Remove connection with {your page name}.
+    - Click OK.
+    - You can now select your Page from the drop-down menu.
+    - Select Next and continue with the normal installation process.
 
-6. Will Facebook dyamic ads stay up to date with my stock changes?
+#### 6. Will Facebook dyamic ads stay up to date with my stock changes?
 
 Yes, we'll sync with your OpenCart site immediately when you make any modifications to the products.
 
-7. How many product catalogs can I use with this setup?
+#### 7. How many product catalogs can I use with this setup?
 
 You may only use 1 product catalog.
 
-8. I want to also reach people who have not visited my website or app, what should I do?
+#### 8. I want to also reach people who have not visited my website or app, what should I do?
 
 You can drive new potential customers to visit your website, or to take a specific action, by creating an ad campaign using the website conversions objective. Learn more about how to optimize your ad sets for conversions at https://www.facebook.com/business/help/1082085278508457?helpref=faq_content
 
-9. My advertiser pays a third party to manage their OpenCart site, what should I do?
+#### 9. My advertiser pays a third party to manage their OpenCart site, what should I do?
 
 That's fine. Just be sure that the third party is added as an administrator to the advertiser's Facebook page and ad account.
 
