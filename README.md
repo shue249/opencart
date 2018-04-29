@@ -60,7 +60,8 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
   If you've set up the Facebook pixel but not dynamic ads, or you think you may have set up the Facebook pixel incorrectly, you should use the Facebook Ads Extension to get everything set up. Keep in mind you'll have to manually remove your existing Facebook pixel code from your website before starting, otherwise you'll have 2 versions of your pixel on your website.
 
   Having 2 versions on the Facebook pixel can lead to:
-    - Campaign results doubling (ex: 2x the number of actual conversions)
+
+    - Campaign results doubling (ex: 2x the number of actual conversions)    
     - Cost per result being halved in your reports
 
   If you remove your existing pixel and start over with the OpenCart plugin, we recommend pausing your active campaigns first and re-installing right away. This way, you'll minimize any impact on your website Custom Audiences and conversion counts.
@@ -88,7 +89,8 @@ You will need to refresh the server modifications cache for the changes to be re
 
 #### 4. I am getting an error message saying “Unable to access permissions” when I clicked on the Facebook Ads Extension.
 
-Facebook Ads Extension is a new module added to your OpenCart platform and you will need to give permissions access for your OpenCart login account. By default, the “Administrator” user group is given full access to the Facebook Ads Extension module upon installation. 
+Facebook Ads Extension is a new module added to your OpenCart platform and you will need to give permissions access for your OpenCart login account. By default, the “Administrator” user group is given full access to the Facebook Ads Extension module upon installation.
+
     - Select System, Settings and click Users.
     - Locate your user account and click on Edit button. Identify the user group.
     - Select System, Settings, and click User Groups.
@@ -98,6 +100,7 @@ Facebook Ads Extension is a new module added to your OpenCart platform and you w
 #### 5. I see an error that says "We're unable to proceed since the selected page has already been configured for the Facebook Ads Extension."
 
 If you see this error, it means that your Page is associated with another store. You'll need to decide whether you want to keep the Facebook Page associated with your old OpenCart store, or associate it with a different store. Here's how you can change your Page's association:
+
     - Select Remove connection with {your page name}.
     - Click OK.
     - You can now select your Page from the drop-down menu.
