@@ -53,7 +53,7 @@ Note: Prior to installing the extension, remove all existing pixel implementatio
   1. Zip up the entire folder and rename it to facebook_ads_extension.ocmod.zip
 
 ## Frequently asked questions
-###### 1. What should I do if I already have the Facebook pixel installed on my OpenCart website?
+##### 1. What should I do if I already have the Facebook pixel installed on my OpenCart website?
 
   If you've already installed the Facebook pixel and are running Facebook dynamic ads, you don't have to use the Facebook Ads Extension in OpenCart.
 
